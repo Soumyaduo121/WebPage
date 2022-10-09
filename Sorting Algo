@@ -1,8 +1,8 @@
 #include<stdio.h>
 void sort(int arr[100], int n)
 {
-    int temp,i,j;
-    for(i=1;i<n-1;i++)
+    int temp,i=1,j;
+    for( ;i<n-1;i++)
     {
         j=i-1,temp=arr[i];
         for( ;j>=0;j--)
