@@ -1,0 +1,17 @@
+#json sample
+
+{
+    "School":[
+        {
+        "name":"DPS",
+        "principle":"R.T.Goswami",
+        "Students": [
+            {
+                "rno":12,
+                "name":"Soumyadeep",
+                "marks":67
+            }
+          ]
+        }
+    ]
+}
