@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEY YOU MOTHERFUCKER(KP) WHO HAS OPENED THE SOURCE CODE OF THE WEBPAGE GO TO HELL BITCH -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+
+<body>
+    <header>
+        <img class="logo"
+            src="https://static.vecteezy.com/system/resources/previews/000/388/900/large_2x/modern-company-logo-design-vector.jpg"
+            alt="logo">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="cta"><button>Contact</button></a>
+    </header>
+    <!--cards-->
+    <div class="big__card__block">
+        <!--card1-->
+        <div class="container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="https://images.summitmedia-digital.com/topgear/images/2019/09/04/lamborghini-sian-07-1567562045.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="https://th.bing.com/th/id/R.a0a819c4e25718de9234f108c0efe0e2?rik=IdsABADjrp9vuA&riu=http%3a%2f%2fwp-redline.s3-website.eu-west-2.amazonaws.com%2fc8d589b5fa824d309ae655065581e20f.jpg.jpg&ehk=Bca6ewvOxf68ExhL4gMPd3tI77fhDK12CkTciLkAJ1M%3d&risl=&pid=ImgRaw&r=0" alt=""></div>
+                  <div class="swiper-slide"><img src="https://i1.wp.com/www.motoringresearch.com/wp-content/uploads/2019/02/RRS_19-5MY_STATIC_130219_17.jpg?fit=1920%2C1080&ssl=1" alt=""></div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2>Featured Projects</h2>
+        <div class="cards">
+            <div class="image">
+                <img src="https://static.vecteezy.com/system/resources/previews/000/388/900/large_2x/modern-company-logo-design-vector.jpg"
+                    alt="image">
+            </div>
+            <div class="title">
+                <h1>Title name</h1>
+            </div>
+             <div class="description">
+                <p>Write your description</p>
+                <button class="card__button">Read more...</button>
+            </div>
+        </div>
+        <!--card2-->
+        <div class="cards">
+            <div class="image">
+                <img src="https://freedesignfile.com/upload/2015/02/Colored-company-logos-creative-design-05.jpg"
+                    alt="image">
+            </div>
+            <div class="title">
+                <h1>Title name</h1>
+            </div>
+            <div class="description">
+                <p>Write your description</p>
+                <button class="card__button">Read more...</button>
+            </div>
+        </div>
+        <!--card3-->
+        <div class="cards">
+            <div class="image">
+                <img src="https://d1yjjnpx0p53s8.cloudfront.net/14_0.jpg"
+                    alt="image">
+            </div>
+            <div class="title">
+                <h1>Title name</h1>
+            </div>
+            <div class="description">
+                <p>Write your description</p>
+                <button class="card__button">Read more...</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', { 
+            autoplay:{
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+  loop: true,
+
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+    </script>
+</body>
+
+</html>
